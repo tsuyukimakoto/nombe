@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDirs": [
+      "src",
+      "stories"
+    ],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": false,
+    "target": "es5",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "preset": "ts-jest"
+}
